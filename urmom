@@ -1,0 +1,277 @@
+ <!DOCTYPE html>
+
+
+<html>
+
+<header>
+
+<title>Form</title>
+
+<style>
+
+.names{
+
+position: fixed;
+
+left: 30px;
+
+}
+
+ 
+
+          .names2 {
+            position: fixed;
+            top: 120px;
+            left: 30px;
+
+          }
+
+ 
+
+          .names3{
+            position: fixed;
+            top: 245px;
+            left: 30px;
+
+          }
+
+ 
+
+          .names4{
+            position: fixed;
+            top: 310px;
+            left: 30px;
+
+          }
+
+ 
+
+          .names5{
+            position: fixed;
+            top: 380px;
+            left: 30px;
+
+          }
+
+ 
+
+          left{
+          left: 30px;
+
+          }
+
+ 
+
+         .text{
+          font-family:Tahoma;
+          font-size: 14px;
+          color: dimgray;
+          text-align:left;
+
+            }
+
+ 
+
+            .div{
+             width: 500px;
+             background-color: #DCDCDC;
+             border: 1px solid black;
+
+            }
+
+ 
+
+            .inteactions{
+             margin-left:150px;
+
+            }
+
+ 
+
+            .subtitles{
+             float: left;
+             padding-left: 100px;
+             text-align: right;
+             padding-top: 100px;
+
+            }
+
+ 
+
+            .fix1{
+             float: left;
+
+            }
+
+ 
+
+            legend{
+            font-size: 20px;
+            font-weight: bold;
+
+            }
+
+ 
+        </style>
+
+ 
+
+    </header>
+
+ 
+
+<body>
+
+<div class="div">
+
+<form action="/action_page.php">
+
+
+<fieldset>
+
+    <legend>Give us your feedback</legend>
+
+    <label class="names" class="left">Full Name:</label>
+
+    <input type="text" value="" size="35px" class="inteactions fix1"><br>
+
+<br>
+
+    <label class="names2"; >Year:</label><br>
+
+    <input type="radio" name="fav_language" class="inteactions">
+
+    <label>Freshman</label><br>
+
+    <input type="radio"name="fav_language" class="inteactions">
+
+    <label>Sophmore</label><br>
+
+
+
+    <input type="radio" name="fav_language" class="inteactions">
+
+ 
+    <label>Junior</label><br>
+
+ 
+
+    <input type="radio" name="fav_language" class="inteactions">
+
+
+    <label>Senior</label><br>
+
+ 
+<br>
+
+
+
+    <label class="names3"; ;>Activities:</label><br>
+
+ 
+
+    <input type="checkbox" class="inteactions">
+
+ 
+ 
+
+    <label> Sports</label><br>
+
+ 
+
+    <input type="checkbox" class="inteactions">
+
+
+ 
+
+    <label> Music</label><br>
+
+ 
+
+    <input type="checkbox" class="inteactions">
+
+
+
+
+    <label> Theater</label><br>
+
+ 
+
+    <input type="checkbox" class="inteactions">
+
+ 
+
+
+    <label> Other</label><br>
+
+ 
+
+<br>
+
+
+
+    <label class="names4" >Quarter:</label>
+
+ 
+
+    <select class="inteactions" class="fix1">
+
+ 
+ 
+
+    <option>Spring</option>
+    <option>Summer</option>
+    <option>Fall</option>
+    <option>Winter</option>
+
+ 
+
+    </select><br>
+
+ 
+
+ 
+
+ 
+
+<br>
+
+ 
+
+ 
+
+ 
+
+  <label class="names5">Comments:</label>
+
+ 
+
+    <textarea rows="5" cols="40" class= "inteactions">Enter your feedback here.</textarea><br>
+
+ 
+
+<br>
+
+ 
+
+  <center><input type="submit" value="Click to Submit"></center>
+
+ 
+
+  </fieldset>
+
+ 
+
+</form>
+
+ 
+
+</div>
+
+ 
+
+</body>
+
+ 
+
+</html>
